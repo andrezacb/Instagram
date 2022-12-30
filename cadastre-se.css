@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cadastro{
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    height: 639px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 37%;
+   
+}
+
+h1{
+    margin-top: 11%;
+}
+h2{
+    font-size: 17px;
+    color: #8E8E8E;
+    font-weight: 600;
+    margin-top: 1%;
+}
+
+button#facebook{
+    width: 270px;
+    height: 32px;
+    background:#0095F6 ;
+    border: 1px solid #0095F6;
+    margin-top: 6%;
+    border-radius: 4px;
+}
+#face> img{
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+}
+
+#face{
+    display: flex;
+    align-items: center;
+    
+}
+span#face{
+    margin-left: 18%;
+    color:#FFFFFF ;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#separador>img{
+    margin-top: 5%;
+}
+
+input{
+    margin-top: 2%;
+    width: 255px;
+    height: 34px;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+}
+
+::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 2%;
+}
+
+input:focus{
+    box-shadow: 0000;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.378);
+}
+
+p,a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color:#8E8E8E;
+    text-decoration: none;
+}
+
+.enter{
+    background:#B2DFFC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #B2DFFC;
+    border-radius: 3px
+}
+.conta{
+    border: 1px solid #DBDBDB;
+    width: 340px;
+    height: 48px;
+    margin-left:37%;
+    text-align: center;
+    padding-top: 18px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+#conecte{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#0095F6 ;
+    font-weight: 400;
+}
+
+.app{
+   text-align: center;
+   font-size: 14px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-right: 4%;
+}

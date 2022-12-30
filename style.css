@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img#tel{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 9%;
+   
+}
+
+main{
+    display: flex;
+}
+
+.campo{
+    border: 1px solid #DBDBDB;
+    width: 320px;
+    height: 370px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cont{
+    margin-top: 5%;
+}
+h1>img{
+    margin-top: 5%;
+}
+
+input{
+    width: 250px;
+    height: 26px;
+    margin-top: 2%;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    padding: 5px;
+    padding-left: 10px;
+   
+}
+
+input:focus{
+    box-shadow: 0000;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.474);
+}
+
+::placeholder{
+    font-size: 10pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(163, 163, 163);
+}
+
+button#botao{
+    width: 260px;
+    height: 30px;
+    margin-top: 4%;
+    border: 2px solid #B2DFFC;
+    border-radius: 3px;
+    cursor: pointer;
+    background:#B2DFFC; 
+}
+
+#botao > a {
+    color: blanchedalmond;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+}
+
+#facebook{
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    color: #385185
+}
+
+#facebook >a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    color: #385185;
+}
+
+#facebook > img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20%;
+}
+a{
+    text-decoration: none;
+}
+
+#esqueceu{
+    font-size: 12px;
+    font-weight:500;
+    color: #00376B;
+}
+
+.cadastro{
+    margin-top: 3%;
+    border: 1px solid #DBDBDB;
+    width: 340px;
+    height: 43px;
+    padding-top: 18px;
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#cad > a{
+    color: #0095F6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.app{
+   
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+   
+}
+
